@@ -1,0 +1,17 @@
+meta {
+  name: R2 - Medicos por Predio Dia Turno (Q2)
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{api}}/alocacoes?idPredio=3&dia=3&idTurno=2
+  body: none
+  auth: none
+}
+
+params:query {
+  idPredio: 3
+  dia: 3
+  idTurno: 2
+}
